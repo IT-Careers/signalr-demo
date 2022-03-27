@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\bin\Release\net6.0\SignalRDemo.Data.deps.json
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\bin\Release\net6.0\SignalRDemo.Data.runtimeconfig.json
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\bin\Release\net6.0\SignalRDemo.Data.dll
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\bin\Release\net6.0\ref\SignalRDemo.Data.dll
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\bin\Release\net6.0\SignalRDemo.Data.pdb
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\SignalRDemo.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\SignalRDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\SignalRDemo.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\SignalRDemo.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\SignalRDemo.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\SignalRDemo.Data.dll
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\ref\SignalRDemo.Data.dll
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\SignalRDemo.Data.pdb
+C:\Users\User\Desktop\signalr-demo\SignalRDemo\SignalRDemo.Data\obj\Release\net6.0\SignalRDemo.Data.genruntimeconfig.cache
