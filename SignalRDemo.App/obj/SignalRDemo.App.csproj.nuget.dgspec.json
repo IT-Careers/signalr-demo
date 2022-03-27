@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.App\\SignalRDemo.App.csproj": {}
+    "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.App\\SignalRDemo.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.App\\SignalRDemo.App.csproj": {
+    "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.App\\SignalRDemo.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.App\\SignalRDemo.App.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.App\\SignalRDemo.App.csproj",
         "projectName": "SignalRDemo.App",
-        "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.App\\SignalRDemo.App.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.App\\SignalRDemo.App.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.App\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\SignalRDemo.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\SignalRDemo.Data.csproj"
+              "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\SignalRDemo.Data.csproj": {
+    "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
         "projectName": "SignalRDemo.Data",
-        "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

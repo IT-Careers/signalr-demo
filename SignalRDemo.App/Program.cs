@@ -10,9 +10,10 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add DbContext
-builder.Services.AddDbContext<AppDbContext>(options =>
-     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
-     ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+builder.Services.AddDbContext<AppDbContext>(options => {
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection")));
+    });
 
 // Add JWT Auth
 // Configure strongly typed settings objects
@@ -83,6 +84,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//using(var serviceScope = app.Services.CreateScope())
+//{
+//    using(var appDbContext = serviceScope.ServiceProvider.GetRequiredService<AppDbContext>())
+//    {
+//        appDbContext.Database.Migrate();
+//    }
+//}
+
 
 app.UseHttpsRedirection();
 

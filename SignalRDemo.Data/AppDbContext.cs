@@ -17,8 +17,10 @@ namespace SignalRDemo.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("server=localhost;database=signalr-demo;user=root;password=1234;port=3306"
-                    , ServerVersion.AutoDetect("server=localhost;database=signalr-demo;user=root;password=1234;port=3306"));
+                string connectionString = "server=eu-cdbr-west-02.cleardb.net;database=heroku_db22767af67ab79;user=b08e20a37c03a7;password=cb1a7f31;port=3306";
+
+                optionsBuilder.UseMySql(connectionString
+                    , ServerVersion.AutoDetect(connectionString));
             }
 
             base.OnConfiguring(optionsBuilder);
@@ -26,6 +28,30 @@ namespace SignalRDemo.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.Entity<AppUser>()
+                .Property(u => u.Id)
+                .HasMaxLength(128);
+
+            builder.Entity<AppUser>()
+                .Property(u => u.Username)
+                .HasMaxLength(128);
+
+            builder.Entity<AppUser>()
+                .Property(u => u.Password)
+                .HasMaxLength(128);
+
+            builder.Entity<Message>()
+                .Property(m => m.Id)
+                .HasMaxLength(128);
+
+            builder.Entity<Message>()
+                .Property(m => m.Content)
+                .HasMaxLength(128);
+
+            builder.Entity<Message>()
+                .Property(m => m.UserId)
+                .HasMaxLength(128);
+
             base.OnModelCreating(builder);
         }
     }

@@ -748,11 +748,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
       "projectName": "SignalRDemo.Data",
-      "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\signalr-demo\\SignalRDemo\\SignalRDemo.Data\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
