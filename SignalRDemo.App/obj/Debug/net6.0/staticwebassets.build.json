@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "d6V+OYv7PTh3SNGdC7C1hw2iMeEXJajcW/wKvvs51qI=",
+  "Hash": "laxn+MDlJvAAQHQ50cuE39lOVFZEQ8bTwj0zmLtdMkM=",
   "Source": "SignalRDemo.App",
   "BasePath": "_content/SignalRDemo.App",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "SignalRDemo.App\\wwwroot",
+      "Source": "SignalRDemo.App",
+      "ContentRoot": "C:\\01.Buhtig\\signalr-demo\\SignalRDemo.App\\wwwroot\\",
+      "BasePath": "_content/SignalRDemo.App",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\01.Buhtig\\signalr-demo\\SignalRDemo.App\\wwwroot\\test.txt",
+      "SourceId": "SignalRDemo.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\01.Buhtig\\signalr-demo\\SignalRDemo.App\\wwwroot\\",
+      "BasePath": "_content/SignalRDemo.App",
+      "RelativePath": "test.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\test.txt"
+    }
+  ]
 }

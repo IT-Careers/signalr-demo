@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj": {}
+    "C:\\01.Buhtig\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj": {
+    "C:\\01.Buhtig\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
+        "projectUniqueName": "C:\\01.Buhtig\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
         "projectName": "SignalRDemo.Data",
-        "projectPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
+        "projectPath": "C:\\01.Buhtig\\signalr-demo\\SignalRDemo.Data\\SignalRDemo.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\signalr-demo\\repo\\signalr-demo\\SignalRDemo.Data\\obj\\",
+        "outputPath": "C:\\01.Buhtig\\signalr-demo\\SignalRDemo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,9 +56,9 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
-            "Pomelo.EntityFrameworkCore.MySql": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.3, )"
             }
           },
           "imports": [

@@ -17,10 +17,9 @@ namespace SignalRDemo.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                string connectionString = "server=eu-cdbr-west-02.cleardb.net;database=heroku_db22767af67ab79;user=b08e20a37c03a7;password=cb1a7f31;port=3306";
+                string connectionString = "Host=ec2-52-18-116-67.eu-west-1.compute.amazonaws.com:5432;database=d9clgq2vgndm7g;username=dkrnsoihsolacv;password=09ca2948c45b87bc150bcc4c0c206c5cebcd4e83c155005a833705885b7412cf";
 
-                optionsBuilder.UseMySql(connectionString
-                    , ServerVersion.AutoDetect(connectionString));
+                optionsBuilder.UseNpgsql(connectionString);
             }
 
             base.OnConfiguring(optionsBuilder);
