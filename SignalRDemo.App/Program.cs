@@ -68,7 +68,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("MyPolicy", policyBuilder =>
     {
-        policyBuilder.WithOrigins("http://localhost:63342")
+        policyBuilder.WithOrigins("http://localhost:63342", "https://it-careers.github.io/signalr-demo-client/")
         .AllowAnyHeader()
         .AllowCredentials()
         .AllowAnyMethod();
